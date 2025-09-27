@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { Analytics } from "@vercel/analytics/next"
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
@@ -65,8 +65,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Analytics>
-      <RouterProvider router={router}></RouterProvider>
-    </Analytics>
+    <RouterProvider router={router}></RouterProvider>
   </StrictMode>
 );
