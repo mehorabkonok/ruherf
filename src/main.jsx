@@ -2,8 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomepageContainer from "./Pages/HomepageContainer.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import Error from "./Pages/Routes/Error/Error.jsx";
 import Contact from "./Pages/Routes/Contact/Contact.jsx";
@@ -26,8 +26,9 @@ import Terms_and_Conditions from "./Pages/Routes/Terms_and_Conditions.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
+    element: <HomepageContainer></HomepageContainer>,
     children: [
+      { path: '/', element: <Home></Home> },
       { path: "/research", element: <Research></Research> },
       { path: "/events", element: <Events></Events> },
       { path: "/resource", element: <Resource></Resource> },

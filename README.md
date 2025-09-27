@@ -14,6 +14,8 @@ React Router v6.30.1 for seamless client-side routing
 
 React Icons for scalable vector icons
 
+Swiper.js version 12.0.2 for image slider in the hero section
+
 Features
 
 Fully responsive layout for mobile and desktop devices

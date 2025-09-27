@@ -1,19 +1,21 @@
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
-import { Outlet } from 'react-router-dom';
+import AboutPreview from "./AboutPreview";
+import CTA from "./CTA";
+import EventsPreview from "./EventsPreview";
+import GalleryPreview from "./GalleryPreview";
+import Hero from "./Hero";
+import MembersHighlight from "./MembersHighlight";
+import ResearchPreview from "./ResearchPreview";
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Outlet>
-                <div>
-                    <p>This is the Home page and parent of all the routes and components</p>
-                </div>
-            </Outlet>
-
-            {/* The footer has to uncommented befor deployment */}
-            <Footer></Footer>
+            <Hero></Hero>
+            <AboutPreview></AboutPreview>
+            <EventsPreview></EventsPreview>
+            <ResearchPreview></ResearchPreview>
+            <GalleryPreview></GalleryPreview>
+            <MembersHighlight></MembersHighlight>
+            <CTA></CTA>
         </div>
     );
 };
