@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/xqt0h1JQ/cover-slider-1.jpg"
-                            src="/public/cover_slider_1.jpg"
+                            src="/cover_slider_1.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 1"
                         />
@@ -42,7 +42,7 @@ const Hero = () => {
                         <img
 
                             // src="https://i.ibb.co.com/xSRv8nHS/cover-slider-2.jpg"
-                            src="/public/cover_slider_2.jpg"
+                            src="/cover_slider_2.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 2"
                         />
@@ -63,7 +63,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/Y43M8qv6/cover-slider-3.jpg"
-                            src="/public/cover_slider_3.jpg"
+                            src="/cover_slider_3.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 3"
                         />
@@ -84,7 +84,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/rKXnVNMC/cover-slider-4.jpg"
-                            src="/public/cover_slider_4.jpg"
+                            src="/cover_slider_4.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 4"
                         />
@@ -105,7 +105,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/7JYfz2Sb/cover-slider-5.jpg"
-                            src="/public/cover_slider_5.jpg"
+                            src="/cover_slider_5.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 5"
                         />
@@ -126,7 +126,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/67rhPxsJ/cover-2.jpg"
-                            src="/public/cover_slider_6.jpg"
+                            src="/cover_slider_6.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 6"
                         />
@@ -147,7 +147,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/MQ2VbVX/cover-slider-7.jpg"
-                            src="/public/cover_slider_7.jpg"
+                            src="/cover_slider_7.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 7"
                         />
@@ -168,7 +168,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/Fq638t9B/cover-slider-8.jpg"
-                            src="/public/cover_slider_8.jpg"
+                            src="/cover_slider_8.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 8"
                         />
@@ -189,7 +189,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/CjgMjWY/cover-1.jpg"
-                            src="/public/cover_slider_9.jpg"
+                            src="/cover_slider_9.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 9"
                         />
@@ -210,7 +210,7 @@ const Hero = () => {
                     <div className="relative w-full h-full">
                         <img
                             // src="https://i.ibb.co.com/Q36vkR2Z/cover-slider-10.jpg"
-                            src="/public/cover_slider_10.jpg"
+                            src="/cover_slider_10.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 10"
                         />
