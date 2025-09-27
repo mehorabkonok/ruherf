@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ruherf_logo from '../../../assets/ruherf_logo.jpg';
 import { NavLink } from 'react-router-dom';
@@ -18,7 +19,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50 bg-black/2 backdrop-blur-sm text-white">
+        <div className="fixed top-0 left-0 w-full z-50 bg-black/20 backdrop-blur-sm text-white">
             <div className="navbar container mx-auto px-4">
                 {/* Navbar start */}
                 <div className="navbar-start">
