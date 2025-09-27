@@ -44,7 +44,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/xSRv8nHS/cover-slider-2.jpg"
                             src="/public/cover_slider_2.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 2"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -65,7 +65,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/Y43M8qv6/cover-slider-3.jpg"
                             src="/public/cover_slider_3.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 3"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -86,7 +86,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/rKXnVNMC/cover-slider-4.jpg"
                             src="/public/cover_slider_4.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 4"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -107,7 +107,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/7JYfz2Sb/cover-slider-5.jpg"
                             src="/public/cover_slider_5.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 5"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -128,7 +128,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/67rhPxsJ/cover-2.jpg"
                             src="/public/cover_slider_6.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 6"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -149,7 +149,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/MQ2VbVX/cover-slider-7.jpg"
                             src="/public/cover_slider_7.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 7"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -170,7 +170,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/Fq638t9B/cover-slider-8.jpg"
                             src="/public/cover_slider_8.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 8"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -191,7 +191,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/CjgMjWY/cover-1.jpg"
                             src="/public/cover_slider_9.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 9"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -212,7 +212,7 @@ const Hero = () => {
                             // src="https://i.ibb.co.com/Q36vkR2Z/cover-slider-10.jpg"
                             src="/public/cover_slider_10.jpg"
                             className="w-full h-full object-cover"
-                            alt="Slide 1"
+                            alt="Slide 10"
                         />
                         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">
