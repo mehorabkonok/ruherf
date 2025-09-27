@@ -40,26 +40,26 @@ const router = createBrowserRouter([
       { path: "/privacy_policy", element: <PrivacyPolicy></PrivacyPolicy> },
       { path: "/terms_and_conditions", element: <Terms_and_Conditions></Terms_and_Conditions> },
       { path: "/faq", element: <FAQ></FAQ> },
+
+      // protected rout (will be accessible after a successfull authentication by user credentials)
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>, // protected route
+        children: [
+          { path: "profile", element: <Profile></Profile> },
+          { path: "projects", element: <MyProject></MyProject> },
+          { path: "settings", element: <Settings></Settings> },
+        ],
+      },
+
+      // Will catch any erronus route activities
+      {
+        path: "*",
+        element: <Error></Error>,
+      },
     ],
   },
 
-
-  // protected rout (will be accessible after a successfull authentication by user credentials)
-  {
-    path: "/dashboard",
-    element: <Dashboard></Dashboard>, // protected route
-    children: [
-      { path: "profile", element: <Profile></Profile> },
-      { path: "projects", element: <MyProject></MyProject> },
-      { path: "settings", element: <Settings></Settings> },
-    ],
-  },
-
-  // Will catch any erronus route activities
-  {
-    path: "*",
-    element: <Error></Error>,
-  },
 ]);
 
 createRoot(document.getElementById("root")).render(
