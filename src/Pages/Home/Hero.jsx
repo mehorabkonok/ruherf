@@ -19,7 +19,8 @@ const Hero = () => {
                 <SwiperSlide>
                     <div className="relative w-full h-full">
                         <img
-                            src="/public/cover_image/cover_slider_1.jpg"
+                            // src="/public/cover_image/cover_slider_1.jpg"
+                            src="https://i.ibb.co.com/CjgMjWY/cover-1.jpg"
                             className="w-full h-full object-cover"
                             alt="Slide 1"
                         />
