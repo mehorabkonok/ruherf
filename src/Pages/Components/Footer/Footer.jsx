@@ -1,65 +1,8 @@
-// import { FaFacebookSquare } from "react-icons/fa";
-// import { FaSquareXTwitter } from "react-icons/fa6";
-// import { FaLinkedin } from "react-icons/fa";
-// import { IoLogoYoutube } from "react-icons/io";
-
-
-// const Footer = () => {
-//     return (
-//         <footer className="footer bg-neutral text-neutral-content p-10">
-//             <div className="border">
-//                 {/* Quick Link section */}
-//                 <section>
-//                     <ul>
-//                         <li><a href="/">Home</a></li>
-//                         <li><a href="/about">About</a></li>
-//                         <li><a href="/contact_us">Contact Us</a></li>
-
-//                     </ul>
-//                 </section>
-
-//                 {/* Resource section */}
-//                 <section>
-//                     <ul>
-//                         <li><a href="/research">Research</a></li>
-//                         <li><a href="/publications">Publications</a></li>
-//                         <li><a href="/events">Events</a></li>
-//                     </ul>
-//                 </section>
-
-//                 {/* Legal Policy section */}
-//                 <section>
-//                     <ul>
-//                         <li><a href="/privacy_policy">Privacy Policy</a></li>
-//                         <li><a href="/terms_and_conditions">Terms & Conditions</a></li>
-//                         <li><a href="/faq">FAQ</a></li>
-//                     </ul>
-//                 </section>
-//             </div>
-
-//             <div className="border">
-//                 {/* Social Media section */}
-//                 <section>
-//                     <ul>
-//                         <li><a href=""><FaFacebookSquare /></a></li>
-//                         <li><a href=""><FaSquareXTwitter /></a></li>
-//                         <li><a href=""><FaLinkedin /></a></li>
-//                         <li><a href=""><IoLogoYoutube /></a></li>
-//                     </ul>
-//                 </section>
-//             </div>
-//         </footer>
-//     );
-// };
-
-// export default Footer;
-
-
-
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -70,9 +13,9 @@ const Footer = () => {
                 <section>
                     <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul className="space-y-2">
-                        <li><a href="/" className="hover:text-sky-500 transition-colors">Home</a></li>
-                        <li><a href="/about" className="hover:text-sky-500 transition-colors">About</a></li>
-                        <li><a href="/contact_us" className="hover:text-sky-500 transition-colors">Contact Us</a></li>
+                        <li><Link to="/" className="hover:text-sky-500 transition-colors">Home</Link></li>
+                        <li><Link to="/about" className="hover:text-sky-500 transition-colors">About</Link></li>
+                        <li><Link to="/contact_us" className="hover:text-sky-500 transition-colors">Contact Us</Link></li>
                     </ul>
                 </section>
 
@@ -80,9 +23,9 @@ const Footer = () => {
                 <section>
                     <h3 className="text-lg font-semibold mb-4">Resources</h3>
                     <ul className="space-y-2">
-                        <li><a href="/research" className="hover:text-sky-500 transition-colors">Research</a></li>
-                        <li><a href="/publications" className="hover:text-sky-500 transition-colors">Publications</a></li>
-                        <li><a href="/events" className="hover:text-sky-500 transition-colors">Events</a></li>
+                        <li><Link to="/research" className="hover:text-sky-500 transition-colors">Research</Link></li>
+                        <li><Link to="/publications" className="hover:text-sky-500 transition-colors">Publications</Link></li>
+                        <li><Link to="/events" className="hover:text-sky-500 transition-colors">Events</Link></li>
                     </ul>
                 </section>
 
@@ -90,9 +33,9 @@ const Footer = () => {
                 <section>
                     <h3 className="text-lg font-semibold mb-4">Legal</h3>
                     <ul className="space-y-2">
-                        <li><a href="/privacy_policy" className="hover:text-sky-500 transition-colors">Privacy Policy</a></li>
-                        <li><a href="/terms_and_conditions" className="hover:text-sky-500 transition-colors">Terms & Conditions</a></li>
-                        <li><a href="/faq" className="hover:text-sky-500 transition-colors">FAQ</a></li>
+                        <li><Link to="/privacy_policy" className="hover:text-sky-500 transition-colors">Privacy Policy</Link></li>
+                        <li><Link to="/terms_and_conditions" className="hover:text-sky-500 transition-colors">Terms & Conditions</Link></li>
+                        <li><Link to="/faq" className="hover:text-sky-500 transition-colors">FAQ</Link></li>
                     </ul>
                 </section>
 
