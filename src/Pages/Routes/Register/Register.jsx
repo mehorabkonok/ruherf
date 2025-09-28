@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -82,7 +83,7 @@ const Register = () => {
 
                 {/* Login Redirect */}
                 <p className="mt-6 text-center text-sky-700 text-sm">
-                    Already have an account? <a href="/login" className="text-sky-900 font-semibold hover:underline">Login here</a>
+                    Already have an account? <Link to="/login" className="text-sky-900 font-semibold hover:underline">Login here</Link>
                 </p>
 
             </div>
