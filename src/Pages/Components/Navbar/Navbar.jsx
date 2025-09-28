@@ -37,13 +37,25 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile logo */}
-                    <div className='lg:hidden flex w-full justify-end'>
-                        <a href="/">
+                    {/* <div className='lg:hidden flex w-full justify-end'>
+                        <Link to="/">
                             <div className='flex items-center justify-center h-10 w-auto border border-white rounded-md p-4'>
+                                RUHERF
+                            </div>
+
+                        </Link>
+                    </div> */}
+
+                    {/* Centered Mobile Logo */}
+                    <div className="absolute left-1/2 transform -translate-x-1/2 lg:hidden">
+                        <a href="/">
+                            <div className='flex items-center justify-center h-10 w-auto border border-white rounded-md px-4'>
                                 RUHERF
                             </div>
                         </a>
                     </div>
+
+
 
                     {/* Desktop logo */}
                     <div className="hidden lg:block">
