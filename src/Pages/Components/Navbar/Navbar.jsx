@@ -48,7 +48,7 @@ const Navbar = () => {
                     {/* Desktop logo */}
                     <div className="hidden lg:block">
                         <a href="/">
-                            <img className='border border-sky-500 rounded-full h-12 w-12' src={ruherf_logo} alt="logo" />
+                            <img className='border border-white rounded-full h-12 w-12' src={ruherf_logo} alt="logo" />
                         </a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 {/* Navbar end */}
                 <div className="navbar-end">
                     <Link to="/login">
-                        <div className='border border-sky-500 rounded-md h-10 lg:h-12 w-24 flex items-center justify-center hover:bg-green-400 hover:text-white'>
+                        <div className='border border-white rounded-md h-10 lg:h-12 w-24 flex items-center justify-center hover:bg-green-600 hover:text-white'>
                             Login
                         </div>
                     </Link>
