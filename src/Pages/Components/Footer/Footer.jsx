@@ -61,7 +61,7 @@ const Footer = () => {
 
             {/* Footer bottom */}
             <div className="mt-6 text-center text-sm text-gray-400">
-                &copy; {new Date().getFullYear()} Rajshahi University Higher Education and Research Forum. All rights reserved.
+                &copy; {new Date().getFullYear()} Rajshahi University Higher Education and Research Forum <Link to='/admin_login'>{"[RUHERF]"}</Link>. All rights reserved.
             </div>
         </footer>
     );
