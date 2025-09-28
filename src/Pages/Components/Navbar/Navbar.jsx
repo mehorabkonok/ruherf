@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ruherf_logo from '../../../assets/ruherf_logo.jpg';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navItems = (
@@ -60,11 +60,11 @@ const Navbar = () => {
 
                 {/* Navbar end */}
                 <div className="navbar-end">
-                    <a href="/login">
+                    <Link href="/login">
                         <div className='border border-sky-500 rounded-md h-10 lg:h-12 w-24 flex items-center justify-center hover:bg-sky-500 hover:text-white'>
                             Login
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
