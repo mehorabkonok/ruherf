@@ -60,7 +60,7 @@ const Navbar = () => {
 
                 {/* Navbar end */}
                 <div className="navbar-end">
-                    <Link href="/login">
+                    <Link to="/login">
                         <div className='border border-sky-500 rounded-md h-10 lg:h-12 w-24 flex items-center justify-center hover:bg-sky-500 hover:text-white'>
                             Login
                         </div>
