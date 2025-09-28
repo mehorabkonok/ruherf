@@ -23,7 +23,7 @@ const AdminLogin = () => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(`Got error: ${errorCode}:${errorMessage}  `);
-        alert("Failed log in.");
+        alert("Failed to log in.");
       });
   };
 
