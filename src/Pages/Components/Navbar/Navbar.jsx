@@ -24,7 +24,7 @@ const Navbar = () => {
                 {/* Navbar start */}
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} className="btn btn-ghost lg:hidden border border-white">
+                        <div tabIndex={0} className="btn btn-ghost lg:hidden border border-white h-10 w-24 px-4">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -49,7 +49,7 @@ const Navbar = () => {
                     {/* Centered Mobile Logo */}
                     <div className="absolute left-1/2 transform -translate-x-1/2 lg:hidden">
                         <a href="/">
-                            <div className='flex items-center justify-center h-10 w-auto border border-white rounded-md px-4'>
+                            <div className='flex items-center justify-center h-10 w-24 border border-white rounded-md px-4'>
                                 RUHERF
                             </div>
                         </a>
