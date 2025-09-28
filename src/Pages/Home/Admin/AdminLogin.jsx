@@ -1,12 +1,14 @@
 import React from "react";
+import app from "../../Firebase/firebase";
 
 const AdminLogin = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const username = e.target.username.value;
-        const password = e.target.password.value;
-        console.log(`User: ${username}. Pass: ${password}`);
+        const adminEmail = e.target.email.value;
+        const adminPassword = e.target.password.value;
+        console.log(`User: ${adminEmail}. Pass: ${adminPassword}`);
+        e.target.reset();
     };
 
 
@@ -29,12 +31,12 @@ const AdminLogin = () => {
                             htmlFor="username"
                             className="mb-1 font-medium text-red-700"
                         >
-                            Username
+                            Email
                         </label>
                         <input
-                            type="text"
-                            id="username"
-                            name="username"
+                            type="email"
+                            id="email"
+                            name="email"
                             placeholder="Enter admin username"
                             className="input input-bordered border-red-700 focus:border-red-700 focus:ring-red-700 w-full"
                             required
