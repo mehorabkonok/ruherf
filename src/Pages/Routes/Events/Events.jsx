@@ -12,7 +12,7 @@ const Events = () => {
         <>
             <div className='border-2 border-blue-500 p-2'>
                 {/* Event page header or totle */}
-                <h1 className='text-4xl font-bold text-center mb-6'>Evnts</h1>
+                <h1 className='text-4xl font-bold text-center mb-6'>Events</h1>
 
                 {/* Event components */}
                 <div>
