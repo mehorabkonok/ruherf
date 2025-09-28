@@ -6,7 +6,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const Hero = () => {
     return (
-        <div className="w-full h-screen relative">
+        <div className="w-full h-screen relative mt-[-64px]">
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 navigation

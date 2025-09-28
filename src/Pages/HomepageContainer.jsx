@@ -6,7 +6,8 @@ const HomepageContainer = () => {
     return (
         <>
             <Header></Header>
-            <div>
+            
+            <div className='mt-16'>
                 <Outlet></Outlet>
             </div>
 
