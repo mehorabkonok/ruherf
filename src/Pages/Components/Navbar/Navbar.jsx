@@ -9,8 +9,8 @@ const Navbar = () => {
             <li><NavLink to='/' className="hover:text-sky-400">Home</NavLink></li>
             <li><NavLink to='/research' className="hover:text-sky-400">Research</NavLink></li>
             <li><NavLink to='/events' className="hover:text-sky-400">Events</NavLink></li>
-            <li><NavLink to='/resource' className="hover:text-sky-400">Resource</NavLink></li>
-            <li><NavLink to='/members' className="hover:text-sky-400">Member</NavLink></li>
+            <li><NavLink to='/resource' className="hover:text-sky-400">Resources</NavLink></li>
+            <li><NavLink to='/members' className="hover:text-sky-400">Members</NavLink></li>
             <li><NavLink to='/gallery' className="hover:text-sky-400">Gallery</NavLink></li>
             <li><NavLink to='/register' className="hover:text-sky-400">Register</NavLink></li>
             <li><NavLink to='/about' className="hover:text-sky-400">About</NavLink></li>
