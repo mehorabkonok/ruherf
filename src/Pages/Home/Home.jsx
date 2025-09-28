@@ -9,8 +9,10 @@ import ResearchPreview from "./ResearchPreview";
 const Home = () => {
     return (
         <div>
-            <Hero></Hero>  {/* Hero shows the slider or the banner in the homepage */}
+            {/* Hero shows the slider or the banner in the homepage */}
+            <Hero></Hero>
 
+            {/* This section is for the demonstration of the contents of the website in brief*/}
             <div className="p-2 border-2 border-red-500">
                 <AboutPreview></AboutPreview>
                 <EventsPreview></EventsPreview>

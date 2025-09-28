@@ -21,7 +21,9 @@ import Profile from "./Pages/Routes/Dashboard/Profile/Profile.jsx";
 import Settings from "./Pages/Routes/Dashboard/Settings/Settings.jsx";
 import FAQ from "./Pages/Routes/FAQ/FAQ.jsx";
 import PrivacyPolicy from "./Pages/Routes/PrivacyPolicy/PrivacyPolicy.jsx";
-import Terms_and_Conditions from "./Pages/Routes/Terms_and_Conditions.jsx";
+import Terms_and_Conditions from "./Pages/Routes/Terms_and_Condition/Terms_and_Conditions.jsx";
+
+
 
 const router = createBrowserRouter([
   {
