@@ -17,12 +17,13 @@ const AdminLogin = () => {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(`Sucessfully signed in with user ${user}`);
-        alert("Sucess");
+        alert("Sucessfully logged in.");
       })
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(`Got error: ${errorCode}:${errorMessage}  `);
+        alert("Failed log in.");
       });
   };
 
