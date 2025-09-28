@@ -15,7 +15,7 @@ const About = () => {
         <>
             <div className='border-2 border-blue-500 p-2'>
                 {/* About page header or totle */}
-                <h1 className='text-4xl font-bold text-center mb-6'>About Us</h1>
+                <h1 className='text-4xl font-bold text-center mb-6'>About</h1>
 
                 {/* About components */}
                 <div>
